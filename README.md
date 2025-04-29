@@ -15,5 +15,7 @@
 7. Benchmark Mean Reward: 0.98
 
 ## Course of training:
+![image](https://github.com/user-attachments/assets/bfde0196-aaf5-4b4e-a376-1ce801f1ed5d)
+
 The training was fairly slow because it had to come from a negative value. At 200000 steps, the model was actually fully trained. After this, there were some down moments where the model returned to making some more errors. I think this is because the model had returned to the discovery phase.
 I also modified my .yml file. Among other things, I increased the number of steps here to 1000000 as shown in the image above.
